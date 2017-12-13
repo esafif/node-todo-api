@@ -27,3 +27,7 @@ app.post('/todos', (req, res) =>{
 app.listen(3000, () =>{
     console.log("run on localhost");
 });
+
+module.exports = {
+    app
+};
